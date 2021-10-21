@@ -1,0 +1,149 @@
+@charset "UTF-8"; /*----*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); /*--Fonte Google-fonts (Aula de tipografia)--*/ 
+               /*--Regra--*/
+
+@font-face { /*--Regra--*/
+    font-family: 'Android';
+    src: url('../fontes/idroid.otf') format('opentype');/*--Fonte da pasta--*/ /*--Aula Tipografia--*/
+    font-weight: normal;
+}
+
+
+:root {  /*--Raiz de todo Site (Variaveis)-*/
+    --cor0:#c5ebd6;
+    --cor1:#83e1ad;
+    --cor2:#3ddc84;
+    --cor3:#2fa866;
+    --cor4:#1a5c37;
+    --cor5:#063d1e;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, Sans-Serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-android:  'Android' , cursive;
+} 
+/*--(*) São configurações globais abaixo--*/
+
+ * {  
+    margin: 0px;  /*--Sem margem--*/
+    padding: 0px;  /*--Sem padding--*/
+ }
+
+body { /*--Corpo do Site--*/
+    background-color: var(--cor0);/*--Cor de fundo do Site-*/
+    font-family: var(--fonte-padrao);
+}
+
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5)); /*--Gradiente cabeçalho--*/
+    min-height:  150px; /*--Lagura cabeçalho--*/
+    text-align: center; /*--Centraliza txto cabeçalho--*/
+    padding-top: 40px; /*--Espaço texto na parte superior caixa--*/
+}
+
+header > h1 {
+    color: white; /*--Cor (Curiosidades)-*/
+    font-family: var(--fonte-destaque);
+    margin-bottom: 20px; /*--Espaço entre linhas--*/
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267); /*--Sombra no texto--*/
+}
+
+main h1 {
+    color:var(--cor5); /*--Cor (História)-*/
+    font-size: 3em;
+    font-family: var(--fonte-android); /*--Estilo(História)--*/
+}
+
+header > p {  /*--Paragrafo dentro do Cabeçalho--*/
+    font-family: var(--fonte-padrao);
+    font-size:  1.2em; 
+    color: white;
+    max-width: 600px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267); /*--Sombra no texto--*/
+}
+
+nav {  /*--Cor navegação--*/
+    background-color:  var(--cor5);
+    padding: 10px;/*--ESPAÇOS --*/
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.363); /*--Sombra--*/
+}
+
+nav > a { /*--Está dentro de navegação--*/
+    color: white;
+    padding: 10px; /*--Espaçamento dos menus--*/
+    border-radius: 5px; /*--Arredondamento caixa --*/
+    text-decoration: none; /*--Faz o link perder o sublinhado--*/
+    font-weight: bold; /*--negrito--*/
+    transition-duration:  .5s; /*--Tempo  transição de caixa p/ outra--*/
+}
+
+nav > a:hover { /*--Quando mouse no link muda de cor--*/
+    background-color: var(--cor3);
+    color: var(--cor5);
+}
+
+main {  
+    min-width: 300px; /*--Responcividade mínima--*/
+    max-width: 1000px; /*--Responcividade máxima--*/
+    margin: auto;
+    margin-bottom: 30px;  /*--Distancia rodapé com fundo--*/
+    padding: 20px;  /*--Largura margem com texto--*/
+    background-color: white;/*--Cor caixa main--*/
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);  /*--Sombra box --*/
+    border-bottom-left-radius: 10px;  /*--Arredondamento caixa esquerda--*/
+    border-bottom-right-radius: 10px;  /*--Arredondamento caixa direita--*/
+}
+main h2 { /*--(Aprimeira versão)--*/
+    font-family: var(--fonte-android);/*--Estilo--*/
+    color: var(--cor4);
+    font-size: 1.3em;
+    background-image: linear-gradient(to right, var(--cor1),transparent); /*--Transparencia--*/
+    text-indent: 8px;
+}
+
+main p {  /*--Paragrafo--*/
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px; /*--Recuo do texto--*/
+    font-size: 1em; /*--Tamanho da letra--*/
+    line-height: 2em; /*--Espaço em linhas--*/
+}
+
+main strong { /*--Configuração Palavras em negrito--*/
+    color: var(--cor4);
+    font-weight: bold;
+}
+
+main a { /*--Configuração links--*/
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cor5);
+    background-color: var(--cor1);
+    padding: 2px 6px;
+}
+
+main a:hover { /*--Muda cor links passar mouse--*/
+    text-decoration: underline;
+    color: var(--cor4);
+}
+
+
+
+main img { /*--Larguradas imagens--*/
+    width: 100%;
+}
+
+main img.pequena { /*--Imagem Bugdroid--*/
+    max-width: 350px; /*--Tamanho--*/
+    display: block;  
+    margin: auto;  
+}
+
+footer {  /*--Rodapé--*/
+    background-color: var(--cor5);
+    color: white;
+}

@@ -1,0 +1,33 @@
+@charset "UTF-8";/*Para dar compatibilidade especiais no CSS*/
+
+* { /*Configurações Globais das CSS*/
+
+    font-family: Arial, Helvetica, sans-serif;
+   
+  }
+
+  body {
+    background-image: linear-gradient(to right, #51E3FC, #3EE6D2);
+  }
+   main {
+     background-color: white;
+     border-radius: 10px; /* aredonda as pontas*/
+     box-shadow: 5px 5px 15px black; /* sombreamento ao redor*/
+     width: 600px; /* largura*/
+     padding: 10px;  /* ajuste largura*/
+     margin: auto; /* centraliza texto tela*/
+   }
+
+   h1 {
+      color: #042468;
+      text-align: center;
+      text-shadow: 1px 1px 2px rgb(206, 76, 76);
+   }
+
+   h2 {
+      color: #4580FF;
+   }
+
+  p{
+      text-align: justify;
+  }

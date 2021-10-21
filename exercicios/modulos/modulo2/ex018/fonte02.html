@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face { /*Seletor*/ 
+            font-family: "love";
+            src: url("fonts/love story.otf") format("opentype"), url("fonts/story.ttf") format("truetype");
+            font-weight: normal;
+            font-style: normal;
+
+            /*
+                Tipos de format()
+                - opentype (otf)
+                - truetype (ttf)
+                - embedded opentype
+                - truetype-aat (apple advanced Typography)
+                - svg
+            */
+        }
+        }
+          body {
+              font-family: Arial, Helvetica, sans-serif;
+
+         }
+           h1 {
+               font-family: 'love', Times, serif;
+               font-size: 3em;
+               font-weight: normal;
+           }
+    </style>
+</head>
+<body>
+    <h1>Olá Mundo!</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, quasi tempora! Expedita minima voluptatem aperiam, iusto ratione consequatur sed magnam? Perspiciatis saepe magni ipsa iste laboriosam neque accusantium omnis expedita.</p>
+
+</body>
+</html>
