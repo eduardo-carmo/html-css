@@ -1,0 +1,65 @@
+1. Normalmente nossos textos são
+organizados em sessões, e cada uma
+pode possuir um título. Em HTML5 existe
+alguma limitação em relação a
+quantidade de títulos que um documento
+pode ter?
+não. Um texto pode ter vários títulos,
+mas apenas um máximo de seis níveis
+
+2. Os títulos podem ser criados em seis
+níveis diferentes, usando as tags:
+<h1> até <h6>
+
+3. Se estamos em um ponto do texto
+com título nível 3 e queremos
+aprofundar esse assunto com um subtítulo, devemos usar qual nível? Lembrese de seguir a recomendação da W3C.
+nível 4
+
+4. O título principal de um determinado
+documento ou página deverá sempre ser
+definido com um título de qual nível?
+nível 1
+
+5. Muitos dizem que um documento só
+deve ter um título de nível 1 (principal).
+Essa crença é uma…
+lenda. É possível adicionar mais de um
+título de nível 1, só devemos nos dedicar
+a descrevê-lo muito bem para facilitar a
+indexação por mecanismos de busca.
+
+6. O estudo da indexação do conteúdo
+de um site por meio de mecanismos de
+busca é conhecido popularmente como:
+SEO - Search Engine Optimization
+
+7. Todo documento HTML deverá ter
+obrigatoriamente algum título de nível
+6?
+não. Os títulos de menor nível serão
+usados apenas se for necessário
+
+8. Quando estamos desenvolvendo um
+site e o conteúdo ainda não foi definido,
+uma técnica bastante utilizada é usar
+blocos de texto genéricos com conteúdo
+composto por palavras em latim. Esses
+blocos são mais conhecidos pelo termo:
+Lorem Ipsum
+
+9. Para criar um bloco de texto com
+termos genéricos em latim usando o VS
+Code, basta digitar a palavra ____ e
+depois apertar a tecla _____.
+lorem / Enter
+
+10. Se não configurarmos o estilo de
+cada título, os textos dentro da tag de
+nível 1 terão letras _____, enquanto
+aqueles dentro da tag de nível 6 terão
+letras _____. Qual dos itens abaixo é o
+único preenche corretamente as lacunas
+desta frase na ordem correta?
+menor / maior
+

@@ -1,0 +1,58 @@
+1. Qual das afirmações a seguir é a mais
+correta em relação ao cuidado que
+devemos ter em relação ao uso de
+imagens em sites?
+Use sempre a imagem com qualidade
+e resolução balanceadas
+
+2. Deixar um site “pesado” com imagens
+grandes pode gerar:
+Diminuição na taxa de retenção e
+possível penalização em mecanismos de
+busca
+
+3. Para usar imagens dinâmicas em
+nossos sites, devemos aprender a usar
+três tags, que são:
+<picture>, <source> e <img>
+
+4. A tag <source> possui o parâmetro
+_____ para configurar as dimensões da
+mídia, o _____ para indicar o formato da
+mídia e o parâmetro _____ para indicar
+o arquivo de destino. A única opção que
+mostra os parâmetros que preenchem as
+colunas na ordem correta é:
+media, type e srcset
+
+5. Podemos adicionar arquivos de áudio
+reproduzíveis às nossas páginas usando
+a tag:
+<audio>
+
+6. Qual dos valores a seguir é o único
+que não é um parâmetro da tag de
+áudio?
+player
+
+7. Quando inserimos um áudio no site,
+qual é o comportamento padrão do
+navegador em relação à carga do
+conteúdo?
+o a r q u i v o d e á u d i o s e r á
+completamente carregado, mesmo que
+nunca seja apertado o Play
+
+8. Para carregar vídeos hospedados
+localmente, podemos usar a tag HTML:
+<video>
+
+9. Quais são os formatos de vídeo que
+devemos considerar para manter a
+compatibilidade com a maioria dos
+navegadores?
+.mp4 .m4v .webm .ogv
+
+10. Para inserir vídeos do YouTube no
+nosso site, usamos a tag:
+<iframe>

@@ -11,7 +11,7 @@
 /*----*/
 
 :root {    /*--Variavel Raiz--*/             
---cor0: #c5ebd6;
+--cor0: #c5ebd6; /*--Toda variavel começa com (--) --*/
 --cor1: #83e1ad;           
 --cor2: #3ddc84;
 --cor3: #2fa866;
@@ -24,8 +24,8 @@
 }
 
 * { /*--Seletor global--*/
-    margin:  0px; /*--Removel as margens das caixas--*/
-    padding-left: 0px; /*--Removel as margens das caixas--*/
+    margin:  0px; /*--Remove as margens das caixas--*/
+    padding-left: 0px; /*--Remove as margens das caixas--*/
 }
 
 body {  /*--cor de fundo--*/

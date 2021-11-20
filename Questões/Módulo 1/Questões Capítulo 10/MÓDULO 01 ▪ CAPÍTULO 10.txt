@@ -1,0 +1,51 @@
+1. Toda vez que estamos em um site e
+clicamos em uma área sensível que nos
+leva a outro ponto ou a outro
+documento, estamos interagindo com
+um:
+hyperlink
+
+2. Para criarmos links em nosso site,
+utilizaremos a tag:
+<a>
+
+3. Dentro da tag de âncora, o parâmetro
+_____ serve para indicar a URL completa
+para onde o fluxo será desviado.
+href
+
+4. Também é possível indicar o idioma
+principal de um documento configurado
+em uma âncora usando o parâmetro:
+hreflang
+
+5. A tag de âncora também suporta o
+parâmetro target, onde podemos colocar
+vários valores, exceto:
+_external
+
+6. A maneira mais recomendada de
+indicar um link externo é configurando o
+seguinte par de parâmetro e valor:
+rel = “external”
+
+7 . A o c r i a r l i n k s q u e l e va m a
+documentos que estão em pastas
+imediatamente superiores na hierarquia
+do site, devemos adicionar ao link os
+símbolos:
+../
+
+8. Ao criar um link para download,
+recomenda-se configurar os parâmetros
+adicionais:
+download e type
+
+9. O parâmetro type de um link que vai
+servir para baixar um arquivo PDF deve
+estar configurado com o valor:
+download/pdf
+
+10. Os valores application/zip,
+audio/aac e font/ttf são exemplos de:
+media types

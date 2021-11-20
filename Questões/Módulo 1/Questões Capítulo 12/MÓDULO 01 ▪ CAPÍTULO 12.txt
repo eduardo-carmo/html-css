@@ -1,0 +1,65 @@
+1. A sigla CSS significa:
+Cascading Style Sheets
+
+2. Ao configurar os estilos com a técnica
+inline, as propriedades CSS são
+colocadas em que local?
+Dentro da área <head> do documento
+HTML, na área delimitada por <style>
+
+3. O que aconteceu com configurações
+como <body bgcolor=“blue”> e <font
+color=“yellow”> que eram usadas em
+sites mais antigos?
+Continuam funcionando, mas não é
+nada recomendável pois as CSS são
+mais atuais
+
+4. Qual das opções a seguir é a única
+que configura corretamente a cor da
+letra de um título usando CSS inline?
+<h1 style=“color: blue”>Título</h1>
+
+5. Para usar a técnica de estilos
+internos, a tag <style> deve estar em
+que local?
+dentro da área <head> do seu
+documento HTML
+
+6. Em um mesmo documento HTML,
+utilizamos as técnicas de CSS interno e
+CSS inline para mudar a cor de um
+elemento e acabamos usando duas cores
+diferentes. Quais configurações vão
+prevalecer na versão final do site?
+
+
+7. Para utilizar estilos CSS externos,
+devemos usar a tag _____ no
+d o c u m e n t o  H T M L  p a ra  f a z e r  o
+carregamento:
+<link>
+
+8. A tag de carga de estilos externos
+deve estar localizada em que local do
+documento HTML?
+deve estar dentro da área <head> do
+documento
+
+9. Para que os arquivos externos em
+CSS tenham compatibilidade com
+caracteres acentuados, devemos
+adicionar a regra:
+@charset “UTF-8”;
+
+10. No fim das contas, vamos dar
+preferência à técnica de _____ sempre
+que for possível e vamos tentar evitar a
+técnica de _____ em nossos sites. A
+opção que apresenta os termos que
+completam as lacunas na ordem correta
+é:
+CSS externo / CSS inline
+
+
+

@@ -1,0 +1,59 @@
+1. A tipografia é uma arte antiga cujo
+nome vem da junção de duas palavras
+gregas. Marque a opção que descreve
+corretamente cada um destes termos.
+týpos que significa impressão e
+graphía que significa escrita
+
+2. A tipografia se inicia em 1450, com o
+inventor alemão chamado:
+Johannes Gutenberg
+
+3. Para os estudos em tipografia, uma
+letra também pode ser chamada de:
+glifo
+
+4. Qual das frases a seguir melhor define
+o que é uma família tipográfica?
+é o conjunto de caracteres que
+possuem as mesmas características
+anatômicas, independente das suas
+variações.
+
+5. Em relação à anatomia do tipo, temos
+a medida da altura das letras minúsculas
+de uma determinada fonte, que
+chamamos de:
+altura-x
+
+6. As letras g, j e Q possuem uma
+pequena curva que geralmente é
+representada na área da descendente.
+Qual é o nome que se dá a essa curva
+nas letras indicadas?
+cauda
+
+7. As fontes _____ são aquelas com
+bastante efeitos visuais, enfeitadas e até
+mesmo curiosas. Também são chamadas
+de fontes comemorativas.
+display
+
+8. Em CSS, para definir que tipo de fonte
+será utilizado a um determinado
+elemento HTML, usamos a propriedade:
+font-family
+
+9. Na maioria dos casos, o tamanho
+padrão de uma fonte é de _____px, o
+que equivale a _____em na medida
+referencial.
+16px / 1em
+
+10. No exemplo de uso da shorthand
+font: italic bold 1em Arial, Helvetica,
+sans-serif; quais são as propriedades
+que estão sendo definidas, na ordem?
+font-style, font-weight, font-size, fontfamily
+
+

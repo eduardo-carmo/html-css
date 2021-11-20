@@ -1,0 +1,50 @@
+1. Os símbolos de < e de > são usados
+em HTML para delimitar tags. Mas se
+quisermos mostrá-los no navegador,
+precisamos representá-los como:
+&lt; e &gt;
+
+2. Dentro de um parágrafo no código
+HTML, se escrevermos uma palavra em
+cada linha, elas serão apresentadas no
+navegador de que maneira?
+uma ao lado da outra
+
+3. A qualquer momento do código HTML,
+se quisermos criar uma quebra de linha,
+devemos usar qual tag?
+<br>
+
+4. A melhor estratégia para criar um
+espaço relativo a dez quebras de linha
+em nosso site é:
+usar configurações de estilo em CSS e
+especificar o espaçamento todo de uma
+vez
+
+5. Os códigos como &euro; para mostrar
+o símbolo € nas páginas são conhecidos
+pelo nome de:
+HTML entities
+
+6. Que código utilizaremos para mostrar
+uma seta apontando para a direita (?)
+na página?
+&right;
+
+7. Qual site é recomendado nas aulas
+para buscar os códigos usados para
+representar os emojis?
+Emojipedia
+
+8. Se o código de um emoji é U+1F913,
+como devemos representá-lo em nosso
+código HTML?
+&#x1F913;
+
+9. A marca br significa:
+Break row, ou quebra de linha
+
+10. Qual é o TLD do domínio do site que
+indicamos para buscar emojis?
+.org

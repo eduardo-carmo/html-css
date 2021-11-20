@@ -1,0 +1,79 @@
+1. Em um mesmo documento HTML,
+vários elementos podem possuir o
+m e s m o _ _ _ _ _ p a r a c r i a r m o s
+formatações em grupo com CSS, mas só
+podemos ter um elemento com um
+_____ único para criar formatações
+individuais.
+
+R: class / id
+
+2. Toda configuração de folhas de estilo
+que fizermos para um determinado id,
+deve ser feita iniciando pelo símbolo
+_____ antes do identificador. Já as
+configurações para um determinado
+class serão feitas usando o símbolo
+_____ antes do nome da classe.
+
+R:# e .
+
+3. Como já sabemos, existem três
+técnicas para inserir configurações CSS a
+um código HTML5: inline, local e
+externa. Se uma página usa as três
+técnicas ao mesmo tempo e cria uma
+configuração duplicada para uma
+determinada propriedade, qual delas vai
+se sobrepor às demais?
+
+R:CSS inline
+
+4. Uma pseudo-classe CSS é uma
+palavra-chave adicionada às declarações
+de um seletor após um sinal de
+
+R:dois pontos (:)
+
+5. Qual dos itens a seguir é o único que
+não se refere a uma pseudo-classe CSS?
+
+R:before
+
+6. Para realizar configurações de
+formatação em um pedaço específico do
+elemento HTML referenciado (a primeira
+letra de um texto, por exemplo),
+devemos aprender a criar seletores para
+_____.
+
+R:pseudo-elementos
+
+7. Qual dos itens a seguir é o único que
+não se refere a um pseudo-elemento
+CSS?
+
+R:active
+
+8. Considere que temos o seguinte link
+e m u m a m e s m a p á g i n a : < a
+href=“pag002.html” class=“link”>Página
+2</a>. Qual será o nome do seletor
+para configurarmos o que vai acontecer
+quando o usuário mover o cursor do
+mouse por cima do link?
+
+R:
+
+9. Se quisermos que todos os links de
+uma página tenham um símbolo »
+depois do texto, devemos usar a
+formatação:
+
+R:a::after { content: ‘»’; }
+
+10. Podemos definir seletores com o
+símbolo de maior que (>) para indicar o
+que chamamos de:
+
+R:direct children
