@@ -4,21 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body {
             height: 100vh; /*--(Viw Raid) Altura da página --*/
             background-color: black; /*--Cor de fundo--*/
             background-image: url('imagens/wallpaper002.jpg');
             background-position:  center center; /*--Posiciona imagem centro--*/
-            background-repeat: repeat-y; /*--Posiciona imagem eixo y--*/
-            background-size: cover;
+            background-repeat: no-repeat; /*--Posiciona imagem eixo y--*/
+            background-size: cover; /*--Muda o tamanho da imagem para que ela seja sempre totalmente exibida na tela,sem nenhum corte--*/
+            background-attachment:  fixed; /*--A imagem de fundo vai ficar fixada enquanto o conteúdo vai sendo rolado. (scroll)(padrão) a imagem de fundo vai rolar junto com o conteúdo--*/ 
+
+                /*--Podemos reunir tudo em uma única declaração:--*/
+                 background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+                  background-size: cover;
+                   /*--Shorthand - background
+                  color > image > position > repeat > [size]
+                  > attachment
+                  --*/
         }
 
-        main {
-           
+        main {  /*--Caixa texto--*/          
             background-color:  white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
