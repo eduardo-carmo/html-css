@@ -1,5 +1,15 @@
 @charset "utf-8"; /*----*/
 
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap'); /*--Fonte--*/
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap'); /*--Fonte--*/
+
+:root {
+    --fonte1: verdana, geneva, tahoma, sans-serif; /*--Fonte cabeçalho, rodapé--*/
+    --fonte2: 'Passion One', cursive; /*--Fonte Títulos--*/    
+    --fonte3:  'Sriracha', cursive; /*--Fonte conteúdo--*/
+}
+
 * { /*--Reseta espaço das linhas--*/
     margin: 0px;
     padding: 0px;
@@ -8,6 +18,7 @@
 html, body { 
     min-height: 10vh; /*--10vh(100%) altura--*/
     background-color: darkgray;
+    font-family: var(--fonte1);
 }
 
 header {
@@ -19,6 +30,7 @@ header {
 header > h1 {
     padding-top:  50px;
     font-variant: small-caps; /*--primeira Letras Maiuscula--*/
+    font-family: var(--fonte2);
 }
 
 header {
@@ -40,6 +52,7 @@ section { /*--Configuração universal do SECTION --*/
     padding-bottom: 10vh;
     line-height: 2em; /*--Espaçamento entre linhas--*/
     padding-left: 30px; /*--Espaçamento da margem--*/
+    font-family: var(--fonte3);
 }
 
 section.normal{
@@ -53,7 +66,8 @@ section.imagem {
 }
 
 section.imagem > p { /*--Configuração paragrafo faixa preta--*/
-    width: 400px;
+    display: inline-block;
+    padding: 5px;
     background-color: rgba(0, 0, 0, 0.445);
     }
 
