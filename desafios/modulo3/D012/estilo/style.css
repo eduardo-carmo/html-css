@@ -1,2 +1,65 @@
-@charset "utf-8";
+@charset "utf-8"; /*----*/
 
+* { /*--Reseta espaço das linhas--*/
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body { 
+    min-height: 10vh; /*--10vh(100%) altura--*/
+    background-color: darkgray;
+}
+
+header {
+    background-color:  black;
+    color: white;
+    text-align:  center;
+}
+
+header > h1 {
+    padding-top:  50px;
+    font-variant: small-caps; /*--primeira Letras Maiuscula--*/
+}
+
+header {
+    padding-bottom: 50px; /*--Espaço encima e embaixo--*/
+}
+
+header a, footer a { /*--configuração Links--*/
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header a:hover, footer a:hover {/*--Sublinha Link--*/
+    text-decoration: underline; 
+}
+
+section { /*--Configuração universal do SECTION --*/
+    padding-top: 10vh; 
+    padding-bottom: 10vh;
+    line-height: 2em; /*--Espaçamento entre linhas--*/
+    padding-left: 30px; /*--Espaçamento da margem--*/
+}
+
+section.normal{
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: rgb(73, 68, 68);
+    color: white;
+}
+
+section.imagem > p { /*--Configuração paragrafo faixa preta--*/
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.445);
+    }
+
+footer { /*--Rodapé--*/
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
