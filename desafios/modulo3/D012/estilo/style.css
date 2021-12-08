@@ -55,20 +55,39 @@ section { /*--Configuração universal do SECTION --*/
     font-family: var(--fonte3);
 }
 
+SECTION > P { 
+    padding-bottom: 2em; /*--Espaçamento entre texto--*/
+}
+
 section.normal{
     background-color: white;
     color: black;
+     
 }
 
 section.imagem {
     background-color: rgb(73, 68, 68);
-    color: white;
+    color: white; 
+    box-shadow: inset 6px 6px 13px 0px black; /*--Sombreamento faixas --*/  
+    background-attachment: fixed; /*--(Efeito paralax), fixa imagem no fundo--*/
 }
 
 section.imagem > p { /*--Configuração paragrafo faixa preta--*/
     display: inline-block;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.445);
+    text-shadow: 1px 1px opx black; /*--Sombreamento texto--*/
+    }
+
+    section#img01 {
+        background-image: url('../pacote-d012/imagens/background001.jpg');
+        background-position: right center;
+        background-size: cover;
+    }
+
+    section#img02 {
+        background-image: url('../pacote-d012/imagens/background002.jpg');
+        background-size: cover; /*--Ajusta imagem--*/
     }
 
 footer { /*--Rodapé--*/
