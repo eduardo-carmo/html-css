@@ -19,10 +19,21 @@
             border: 1px solid black;
             padding: 10px;
         }
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
 
         thead, tfoot {
-            background-color: gray;
+            background-color: black;
             color: white;
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
+            font-weight: bold;
         }
 
         td.num {
@@ -35,6 +46,7 @@
     <!--
         ANATOMIA PARA TABELAS GRANDES
         TABLE
+            CAPTION
             THEAD
                 TR, TD, TH
             TBODY
@@ -43,10 +55,11 @@
                 TR, TD, TH 
     -->
     <table> <!--Tabela-->
+        <caption>População das Unidades Federativas</caption> <!--Legenda-->
         <thead> <!--Cabeça-->
              <tr>
-                 <th>Estado</th> 
-                 <th>População</th>
+                 <th scope="col">Estado</th> <!--OBS: PROCURAR NO PDF (SCOP)-->
+                 <th scope="col" style="width: 50PX;">População</th>
              </tr>
         </thead>
 
@@ -159,7 +172,7 @@
 
         <tfoot> <!--Rodapé-->
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th> <!--OBS: PROCURAR NO PDF (SCOP)-->
                 <td class="num"><strong>210.147.125</strong></td> <!--Envelopado-->
             </tr>
         </tfoot>
